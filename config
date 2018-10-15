@@ -258,8 +258,8 @@ exec --no-startup-id synclient VertEdgeScroll=0 HorizEdgeScroll=0
 exec syndaemon -i 0.3 -d
 #exec --no-startup-id synclient VertTwoFingerScroll=1 HorizTwoFingerScroll=1
 #exec --no-startup-id synclient VertScrollDelta=-300 HorizScrollDelta=-300
-#exec --no-startup-id synclient NaturalScrolling=1
-#exec --no-startup-id synclient MaxTapTime=0
+exec --no-startup-id synclient NaturalScrolling=1
+exec --no-startup-id synclient MaxTapTime=0
 
 #exec_always compton -f
 exec --no-startup-id compton --backend glx --vsync opengl-swc
