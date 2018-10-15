@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # setupi3
 
 This is an experimental project to setup up a nice i3 desktop environment running on Ubuntu 15.04.
@@ -197,3 +198,7 @@ The command i3blocks uses to detect the system volume is located
 at `/usr/share/i3blocks/volume`.
 
 Need to change this to `/usr/share/i3blocks/volume 5 pulse` to correctly detect. This should be added in the [volume] section in the `i3blocks.conf` file.
+=======
+# dotfiles-i3wm
+Dotfiles for my personal i3wm configuration
+>>>>>>> origin/master
